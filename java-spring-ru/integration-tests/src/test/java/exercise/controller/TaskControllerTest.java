@@ -26,7 +26,6 @@ import exercise.model.Task;
 // BEGIN
 @SpringBootTest
 @AutoConfigureMockMvc
-
 // END
 class ApplicationTest {
 
