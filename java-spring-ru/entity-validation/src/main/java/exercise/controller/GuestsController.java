@@ -1,7 +1,6 @@
 package exercise.controller;
 
 import exercise.mapper.GuestMapper;
-import exercise.model.Guest;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
@@ -54,5 +53,6 @@ public class GuestsController {
         guestRepository.save(guest);
         var guestDto = guestMapper.map(guest);
         return guestDto;
+    }
     // END
-}}
+}
